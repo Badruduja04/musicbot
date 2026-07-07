@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables (berisi token Discord)
+.env
+
+# Log files
+*.log
+logs/
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code (opsional)
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store

@@ -1,0 +1,40 @@
+{
+  "name": "badru-music-bot",
+  "version": "1.0.0",
+  "description": "🎵 BadruMusicBot — Discord Music Bot with Local, YouTube & URL support",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy": "node scripts/deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot",
+    "youtube"
+  ],
+  "author": "Badru",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "@distube/ytdl-core": "^4.16.12",
+    "better-sqlite3": "^9.4.3",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "music-metadata": "^10.2.0",
+    "opusscript": "^0.1.1",
+    "play-dl": "^1.9.7",
+    "sodium-native": "^5.1.0",
+    "uuid": "^14.0.1",
+    "youtube-dl-exec": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
